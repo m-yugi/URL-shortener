@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/css/login.css" type="text/css">
+    <title>login</title>
+</head>
+
+<body>
+    <div class="container mukta-medium">
+        <div class="heading">Sign In</div>
+        <form method="post" action="/user/login" class="form">
+            <input required="" class="input" type="text" name="username" id="Username" placeholder="UserName">
+            <input required="" class="input" type="password" name="password" id="password" placeholder="Password">
+            <span class="forgot-password"><a href="#">Forgot Password ?</a></span>
+            <input class="login-button" type="submit" value="Sign In">
+        </form>
+        <p class="register">New here <a href="/user/register">register</a> </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/views/css/register.css" type="text/css">
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="form-box roboto-condensed">
+        <form method="post" action="/user/register" class="form">
+            <span class="title">Sign up</span>
+            <span class="subtitle">Create a free account with your email.</span>
+            <div class="form-container">
+                <input type="text" class="input" placeholder="Full Name" name="username">
+                <input type="email" class="input" placeholder="Email" name="email">
+                <input type="password" class="input" placeholder="Password" name="password">
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+        <div class="form-section">
+            <p>Have an account? <a href="/user/login">Log in</a> </p>
+        </div>
+    </div>
+</body>
+
+</html>
